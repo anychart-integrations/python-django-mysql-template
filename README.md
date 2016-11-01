@@ -40,8 +40,9 @@ Django==1.10.2
 MySQL-python==1.2.5
 ...
 ```
+
 if not, please, install them:
-...
+```
 $ pip install MySQL-python
 
 $ pip install django
