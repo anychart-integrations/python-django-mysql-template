@@ -67,6 +67,7 @@ Your workspace should look like:
 python-django-mysql-template/
     fruits/
             migrations/
+                __init__.py
         static/
             css/
                 style.css       # css style
@@ -78,24 +79,24 @@ python-django-mysql-template/
         apps.py
         models.py               # app's models
         test.py
-        urls.py                 # routes
+        urls.py                 # app routes
         views.py                # app views
     python-django-mysql-template/
         __init__.py
         settings.py             # basic settings, including MySQL settings
-        urls.py
+        urls.py                 # project routes
         wsgi.py
     database_backup.sql         # MySQL database dump
     LICENSE
-    manage.py
+    manage.py                   # main Django script
     README.md
 
 ```
+More about Django folder structure you can read [here](http://django-project-skeleton.readthedocs.io/en/latest/structure.html).
 
 ## Technologies
 Language - [Python](https://www.python.org/)<br />
-Web framework - [Flask](http://flask.pocoo.org/)<br />
-Html tepmlate - [Jinja 2](http://jinja.pocoo.org/docs/dev/)<br />
+Web framework - [Django](https://www.djangoproject.com/)<br />
 Database - [MySQL](https://www.mysql.com/)<br />
 
 
@@ -106,4 +107,4 @@ Database - [MySQL](https://www.mysql.com/)<br />
 * [Technical Support](https://anychart.com/support)
 
 ## License
-[© AnyChart.com - JavaScript charts](http://www.anychart.com). Released under the [Apache 2.0 License](https://github.com/anychart-integrations/python-flask-mysql-template/blob/master/LICENSE).
+[© AnyChart.com - JavaScript charts](http://www.anychart.com). Released under the [Apache 2.0 License](https://github.com/anychart-integrations/python-django-mysql-template/blob/master/LICENSE).
